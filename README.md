@@ -36,13 +36,12 @@ cd NextJS-DjangoREST-Blog
 
 ```
 cd server
-python3 -m venv env                 // create env environment
-source ./venv/bin/activate          // linux or mac
+source ./venv/bin/activate          // enter virtual environment (linux or mac)
 pip install django djangorestframework pillow  // install dependencies
-python3 manage.py makemigrations    // Migrate database
+python3 manage.py makemigrations    // migrate database
 python3 manage.py migrate
-python3 manage.py createsuperuser   // Create admin superuser
-python3 manage.py runserver         // Run django development server
+python3 manage.py createsuperuser   // create admin superuser
+python3 manage.py runserver         // run django development server
 ```
 
 3. front end side
@@ -50,7 +49,7 @@ python3 manage.py runserver         // Run django development server
 ```
 cd front end
 yarn add  or  npm install           // install dependencies
-yarn dev  or npm run dev            // run project
+yarn dev  or  npm run dev           // run project
 ```
 
 ## Tech Stack
