@@ -6,11 +6,6 @@ from django.utils.safestring import mark_safe
 
 
 class ArticleModel(models.Model):
-    STATUS = (
-        ('0', 'Draft'),
-        ('1', 'Publish'),
-        ('2', 'Delete')
-    )
     title = models.CharField(max_length=300, verbose_name="文章标题")
     image = models.ImageField(upload_to='images')
     introduction = models.TextField(verbose_name="文章简介")
