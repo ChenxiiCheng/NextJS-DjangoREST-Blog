@@ -1,0 +1,31 @@
+.article_title {
+  font-size: 1.4rem;
+  color: #1e90ff;
+}
+
+.article_cover {
+  margin: 0.5rem 0;
+}
+
+.article_cover img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.article_content {
+  color: #888;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.article_tags {
+  padding: 0.2rem 0.5rem 0.1rem 0rem;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+.article_tags > span:not(:first-child) {
+  display: inline-block;
+  padding: 0 10px;
+}

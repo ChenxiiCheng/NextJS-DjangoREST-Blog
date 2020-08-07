@@ -1,0 +1,32 @@
+.header {
+  background-color: #fff;
+  height: 3.6rem;
+  width: 100%;
+}
+
+.header_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem;
+  width: 78%;
+  margin: 0 auto;
+}
+
+.header-logo {
+  color: #1e90ff;
+  font-size: 1.7rem;
+  text-align: left;
+}
+
+.header-txt {
+  display: inline-block;
+  margin-left: 0.8rem;
+  font-size: 1rem;
+  color: #888;
+}
+
+@media screen and (max-width: 1024px) {
+  .header_right {
+    display: none;
+  }
+}
